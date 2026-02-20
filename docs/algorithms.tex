@@ -1,0 +1,45 @@
+\documentclass[a4paper, 12pt]{article}
+
+% ===== IMPORT PACKAGEs ======
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[margin=1.5cm]{geometry}
+\usepackage{lmodern}
+\usepackage[english]{babel}
+
+\date{}
+\author{}
+\title{SORTING ALGORITHM}
+
+% ====== DOCUMENT ======
+
+\begin{document}
+\maketitle
+
+\section{Sorting algorithm by replacement}
+\begin{enumerate}
+	\item \textbf{Initialization: } To have a table T unsorted n element and a table A n element initialy empty.
+	\item \textbf{Main loop: } For each element i in A to 1 in n:
+	\begin{itemize}
+		\item To find a minimum T and index.
+		\item Copy minimum in A[i].
+		\item Replace this minimum by maximum in T. (this is a trick  to ward re-select this element)
+	\end{itemize}
+\end{enumerate}
+
+\section{Sorting algorithm by select}
+\begin{enumerate}
+	\item We go through the table from second element. (The first element always is considering as sorted)
+	\item For each element, we compare it a element always sorted (in left) and we square it in appropriate position.
+	\item We repeat this operation until all element are sorted. 
+\end{enumerate}
+
+\section{Sorting algorithm by bubbles}
+\begin{enumerate}
+	\item We go through the table left to right.
+	\item Compare each element with follow.
+	\item If element is bigger than element follow, exchange them.
+	\item Repeat step 1 to 3, until all element are sorted. 
+\end{enumerate}
+\end{document}
