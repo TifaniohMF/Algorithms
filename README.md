@@ -1,24 +1,11 @@
-# 🎯️ SORTING ALGORITHM
+# 🎯️ ALGORITHM
 
-In this repository, you can see three algorithm for sorted a table unsorted.
+In this repository, you can see different algorithm based in mathematics.
 
-1. Sorting by replacement
-2. Sorting by select
-3. Sorting by bubbles
 
 ---
 
 ## 📁️ Projects structure
-```text
-SortAlgo/
-├── docs
-│   └── algorithms.tex
-├── README.md
-└── src
-    ├── sorting_by_bubbles.py
-    ├── sorting_by_replacement.py
-    └── sorting_by_select.py
-```
 
 ---
 
