@@ -10,18 +10,22 @@ In this repository, you can see different algorithm based in mathematics.
 Algorithms/
 ├── README.md
 ├── others-algo
-│   ├── __init__.py
-│   ├── fibonacci.py
-│   └── test_fibonacci.py
+│   ├── README.md
+│   └── fibonacci
+│       ├── __init__.py
+│       ├── fibonacci.py
+│       └── test_fibonacci.py
+├── requirement.txt
 └── sort-algo
+    ├── README.md
     ├── docs
-    │   ├── algorithms.pdf
-    │   └── algorithms.tex
+    │   ├── algorithms.pdf
+    │   └── algorithms.tex
     ├── src
-    │   ├── __init__.py
-    │   ├── sorting_by_bubbles.py
-    │   ├── sorting_by_replacement.py
-    │   └── sorting_by_select.py
+    │   ├── __init__.py
+    │   ├── sorting_by_bubbles.py
+    │   ├── sorting_by_replacement.py
+    │   └── sorting_by_select.py
     └── test_sort_algo.py
 ```
 ---
