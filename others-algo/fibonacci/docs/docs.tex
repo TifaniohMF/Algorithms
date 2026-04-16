@@ -1,0 +1,24 @@
+\documentclass[12pt, a4paper]{article}
+
+% ==============
+% IMPORT PACKAGE
+% ==============
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=2cm]{geometry}
+\usepackage{lmodern}
+
+\renewcommand{\familydefault}{\sfdefault}
+
+\title{FIBONACCI ALGORITHM}
+\date{\today}
+\author{}
+
+\begin{document}
+
+\maketitle
+
+This algorithm is different from the classic Fibonacci algorithm. This new algorithm has a complexity $o(\log n)$. The idea is to calculate the following matrix: 
+$$\left(\begin{array}{cc}1 & 1 \\ 1 & 0\end{array}\right)^{n}$$ Once the calculation has the result from the top left of this matrix is the corresponding Fibonacci number.
+\end{document}
