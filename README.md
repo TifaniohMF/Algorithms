@@ -1,5 +1,8 @@
 # 🎯️ ALGORITHM
 
+![License](https://img.shields.io/badge/license-MIT-green)
+![Last Commit](https://img.shields.io/github/last-commit/TifaniohMF/Algorithms)
+
 In this repository, you can see different algorithm based in mathematics.
 
 
@@ -8,13 +11,23 @@ In this repository, you can see different algorithm based in mathematics.
 ## 📁️ Projects structure
 ```text
 Algorithms/
+├── LICENSE
 ├── README.md
-├── others-algo
+├── fibonacci
 │   ├── README.md
-│   └── fibonacci
-│       ├── __init__.py
-│       ├── fibonacci.py
-│       └── test_fibonacci.py
+│   ├── docs
+│   │   ├── docs.pdf
+│   │   └── docs.tex
+│   ├── src
+│   │   ├── __init__.py
+│   │   └── fibonacci.py
+│   └── test_fibonacci.py
+├── math
+│   ├── README.md
+│   ├── src
+│   │   ├── __init__.py
+│   │   └── abs.py
+│   └── test_abs.py
 ├── requirement.txt
 └── sort-algo
     ├── README.md
