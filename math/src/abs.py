@@ -4,10 +4,10 @@ For a number
 >> abs(-34) == 34
 
 To find a max absolute value in a list
->> absMax([1,2,3,-12]) == 12
+>> absMax([1,2,3,-12]) == -12
 
 To find a min absolute value in a list
->> absMin([-1,2,3,-12]) == 1
+>> absMin([-1,2,3,-12]) == -1
 '''
 
 def abs(number):
