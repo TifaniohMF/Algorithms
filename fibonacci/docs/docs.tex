@@ -20,5 +20,18 @@
 \maketitle
 
 This algorithm is different from the classic Fibonacci algorithm. This new algorithm has a complexity $o(\log n)$. The idea is to calculate the following matrix: 
-$$\left(\begin{array}{cc}1 & 1 \\ 1 & 0\end{array}\right)^{n}$$ Once the calculation has the result from the top left of this matrix is the corresponding Fibonacci number.
+$$\left(\begin{array}{cc}1 & 1 \\ 1 & 0\end{array}\right)^{n-1}$$ Once the calculation has the result from the top left of this matrix is the corresponding Fibonacci number.\\ \\
+
+\textsc{Exemple:}\\
+Let's take an example to make it a little clearer:\\
+Let's find the Fibonacci number for n = 5. Note $f(n)$ the number fibonacci. Normally the formula Fibonacci classic is $F(n) = F(n-1) + F(n-2)$, where $F(0)=0$ and $F(1)=1$. Then $F(5)=5$.\\
+Now in use the matrix, we have 
+$$\begin{array}{ccc}
+\left(\begin{array}{cc} 1 & 1 \\ 1 & 0\end{array}\right)^{4} & = & \left(\begin{array}{cc} 1 & 1 \\ 1 & 0\end{array}\right)  \left(\begin{array}{cc} 1 & 1 \\ 1 & 0\end{array}\right) \left(\begin{array}{cc} 1 & 1 \\ 1 & 0\end{array}\right)^{2} \\ 
+ & = &\left(\begin{array}{cc} 2 & 1 \\ 1 & 1\end{array}\right)   \left(\begin{array}{cc} 1 & 1 \\ 1 & 0\end{array}\right) \left(\begin{array}{cc} 1 & 1 \\ 1 & 0\end{array}\right) \\ 
+ & = & \left(\begin{array}{cc} 3 & 2 \\ 2 & 1\end{array}\right)\left(\begin{array}{cc} 1 & 1 \\ 1 & 0\end{array}\right) \\
+ & = & \left(\begin{array}{cc} 5 & 3 \\ 3 & 2\end{array}\right).
+\end{array}$$
+Hence on the top left, we have f(5)=5.
+
 \end{document}
