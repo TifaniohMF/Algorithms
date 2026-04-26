@@ -26,8 +26,12 @@ Algorithms/
 │   ├── README.md
 │   ├── src
 │   │   ├── __init__.py
-│   │   └── abs.py
-│   └── test_abs.py
+│   │   ├─ abs.py
+│   │   ├── power.py
+│   │   └── sqrt.py
+│   ├── test_abs.py
+│   ├──  test_power.py
+│   └── test_sqrt.py
 ├── requirement.txt
 └── sort-algo
     ├── README.md
