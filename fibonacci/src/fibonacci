@@ -1,5 +1,5 @@
 import pytest
-from fibonacci import *
+from src.fibonacci import *
 
 def test_fibonacci():
     assert fibonacci(5) == 5
