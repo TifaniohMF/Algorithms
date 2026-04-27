@@ -58,7 +58,18 @@ cd Algorithms
 ```
 
 2. Execute
-You can use this three algorithm in your need
+This is just an example, if you want to know the fibonacci number.
+You can import package Fibonacci as follows.
+```python
+from fibonacci.fibonacci import *
+
+def main():
+     fibonacci(5) # If you know the five fibonacci number 
+     fibonacci(50)
+     
+if __name__ == '__main__':
+     main()
+```
 
 ---
 
