@@ -1,3 +1,0 @@
-# 🎯 All features mathematics
-
-In this folder, I programmed different notion in mathematics as absolute value, pow, sqrt, etc...
