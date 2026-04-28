@@ -16,34 +16,46 @@ Algorithms/
 ├── fibonacci
 │   ├── README.md
 │   ├── docs
+│   │   ├── docs.aux
+│   │   ├── docs.log
 │   │   ├── docs.pdf
 │   │   └── docs.tex
 │   ├── src
 │   │   ├── __init__.py
 │   │   └── fibonacci.py
 │   └── test_fibonacci.py
-├── math
+├── math_lib
 │   ├── README.md
 │   ├── src
 │   │   ├── __init__.py
-│   │   ├─ abs.py
+│   │   ├── abs.py
 │   │   ├── power.py
 │   │   └── sqrt.py
-│   ├── test_abs.py
-│   ├──  test_power.py
-│   └── test_sqrt.py
+│   └── tests
+│       ├── __init__.py
+│       ├── test_abs.py
+│       ├── test_power.py
+│       └── test_sqrt.py
+├── pyproject.toml
 ├── requirement.txt
-└── sort-algo
-    ├── README.md
-    ├── docs
-    │   ├── algorithms.pdf
-    │   └── algorithms.tex
+├── sort-algo
+│   ├── README.md
+│   ├── docs
+│   │   ├── algorithms.pdf
+│   │   └── algorithms.tex
+│   ├── src
+│   │   ├── __init__.py
+│   │   ├── sorting_by_bubbles.py
+│   │   ├── sorting_by_replacement.py
+│   │   └── sorting_by_select.py
+│   └── test_sort_algo.py
+└── stats
     ├── src
     │   ├── __init__.py
-    │   ├── sorting_by_bubbles.py
-    │   ├── sorting_by_replacement.py
-    │   └── sorting_by_select.py
-    └── test_sort_algo.py
+    │   └── stats.py
+    └── tests
+        ├── __init__.py
+        └── test_stats.py
 ```
 ---
 
