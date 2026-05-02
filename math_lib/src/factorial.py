@@ -3,5 +3,3 @@ def fact(n):
 	for i in range(0, n):
 		M *= (n-i)
 	return M
-	
-print(fact(3))
