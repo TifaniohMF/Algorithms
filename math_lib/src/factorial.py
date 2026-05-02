@@ -1,3 +1,7 @@
+'''
+Factorial implementation 
+'''
+
 def fact(n):
 	M = 1
 	for i in range(0, n):
