@@ -16,8 +16,6 @@ Algorithms/
 ├── fibonacci
 │   ├── README.md
 │   ├── docs
-│   │   ├── docs.aux
-│   │   ├── docs.log
 │   │   ├── docs.pdf
 │   │   └── docs.tex
 │   ├── src
@@ -29,11 +27,14 @@ Algorithms/
 │   ├── src
 │   │   ├── __init__.py
 │   │   ├── abs.py
+│   │   ├── test_expo.py
+│   │   ├── test_factorial.py
 │   │   ├── power.py
 │   │   └── sqrt.py
 │   └── tests
 │       ├── __init__.py
 │       ├── test_abs.py
+│       ├── test_expo.py
 │       ├── test_power.py
 │       └── test_sqrt.py
 ├── pyproject.toml
