@@ -21,5 +21,3 @@ def cos(angle, in_degrees=False): # in_degrees = degre
         S += terme
         
     return S
-
-print(cos(5, in_degrees=True))
