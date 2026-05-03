@@ -21,5 +21,3 @@ def sin(angle, in_degrees=False): # in_degrees = degre
         S += terme
         
     return S
-
-print(sin(10, in_degrees=True))
