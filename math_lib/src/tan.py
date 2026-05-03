@@ -2,8 +2,8 @@
 Function tangent implementation 
 '''
 
-from sin import sin
-from cos import cos
+from src.sin import sin
+from src.cos import cos
 
 def tan(angle, in_degrees=False):
     s = sin(angle, in_degrees)
