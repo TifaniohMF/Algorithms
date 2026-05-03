@@ -27,16 +27,22 @@ Algorithms/
 │   ├── src
 │   │   ├── __init__.py
 │   │   ├── abs.py
-│   │   ├── test_expo.py
-│   │   ├── test_factorial.py
+│   │   ├── cos.py
+│   │   ├── expo.py
+│   │   ├── factorial.py
 │   │   ├── power.py
-│   │   └── sqrt.py
+│   │   ├── sin.py
+│   │   ├── sqrt.py
+│   │   └── tan.py
 │   └── tests
 │       ├── __init__.py
 │       ├── test_abs.py
+│       ├── test_cos.py
 │       ├── test_expo.py
 │       ├── test_power.py
-│       └── test_sqrt.py
+│       ├── test_sin.py
+│       ├── test_sqrt.py
+│       └── test_tan.py
 ├── pyproject.toml
 ├── requirement.txt
 ├── sort-algo
