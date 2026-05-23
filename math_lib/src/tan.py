@@ -2,12 +2,16 @@
 Function tangent implementation 
 '''
 
-from src.sin import sin
-from src.cos import cos
+from src.sin import *
+from src.cos import *
 
-def tan(angle, in_degrees=False):
-    s = sin(angle, in_degrees)
-    c = cos(angle, in_degrees)
-    if c == 0: 
-        return float('inf')
-    return  (s / c)
+class tangent:
+	def __init__(self, angle):
+		self.angle = angle
+	
+	def tan(angle, in_degrees=False):
+	   s = sinus.sin(angle, in_degrees)
+	   c = cosinus.cos(angle, in_degrees)
+	   if c == 0:
+	   	return float('inf')
+	   return  (s / c)
