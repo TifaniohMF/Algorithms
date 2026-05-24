@@ -2,7 +2,11 @@
 Exponential function implementation 
 '''
 from src.factorial import *
-class expo:
+
+class expo(object):
+	def __init__(self, x):
+		self.x = x
+		
 	def exp(x):
 		# x expo(x)
 		f=100 # max iteration

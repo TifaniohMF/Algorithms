@@ -1,7 +1,7 @@
 '''
 Function sinus implementation 
 '''
-class sinus:
+class sinus(object):
 	def __init__(self, angle):
 		self.angle = angle
 	

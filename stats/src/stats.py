@@ -3,7 +3,7 @@ This program représente the sum list
 '''
 from math_lib.src.sqrt import *
 
-class Stats:
+class Stats(object):
 	def __init__(self, L):
 		self.L = L
 		

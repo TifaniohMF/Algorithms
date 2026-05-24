@@ -1,7 +1,7 @@
 '''
 In this program, I create to allows calculate a power of numbers
 '''
-class Pow:
+class Pow(object):
 	def __init__(self, x, n):
 		self.x = x
 		self.n = n

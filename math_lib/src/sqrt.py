@@ -1,7 +1,7 @@
 '''
 In this program, I programmed the square Root of number.
 '''
-class Sqrt:
+class Sqrt(object):
 	def __init__(self, n):
 		self.n = n
 	def sqrt(n):

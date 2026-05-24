@@ -1,9 +1,10 @@
 '''
 Function cosinus implementation 
 '''
-class cosinus:
+class cosinus(object):
     def __init__(self, angle):
     	self.angle = angle
+    	
     def cos(angle, in_degrees=False): # in_degrees = degre
     	# 1.  Pi (approximation)
     	PI = 3.141592653589793

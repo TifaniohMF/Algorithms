@@ -1,7 +1,7 @@
 '''
 Factorial implementation 
 '''
-class facto:
+class facto(object):
 	def __init__(self, n):
 		self.n = n
 		

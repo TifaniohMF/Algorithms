@@ -10,7 +10,7 @@ To find a min absolute value in a list
 >> absMin([-1,2,3,-12]) == -1
 '''
 
-class absolute:
+class absolute(object):
 	def __init__(self, number, list):
 		self.number = number
 		self.list = list

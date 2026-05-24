@@ -5,7 +5,7 @@ Function tangent implementation
 from src.sin import *
 from src.cos import *
 
-class tangent:
+class tangent(object):
 	def __init__(self, angle):
 		self.angle = angle
 	
