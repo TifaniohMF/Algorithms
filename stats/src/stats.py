@@ -3,32 +3,32 @@ This program représente the sum list
 '''
 from math_lib.src.sqrt import *
 
-class Stats(object):
+class Stats:
 	def __init__(self, L):
 		self.L = L
 		
-	def sum(L):
+	def sum(self):
 		S = 0
-		n = len(L)
+		n = len(self.L)
 		for i in range(n):
-			S += L[i]
+			S += self.L[i]
 		return S
 	
-	def mean(L):
+	def mean(self):
 		S = 0
-		n = len(L)
+		n = len(self.L)
 		for i in range(n):
-			S += L[i]
+			S += self.L[i]
 			moy = S/n
 		return moy
 	
-	def var(L):
+	def var(self):
 		S = 0
-		n = len(L)
+		n = len(self.L)
 		for i in range(n):
-			S += L[i]**2
-			var = S/n - Stats.mean(L)**2
+			S += self.L[i]**2
+			var = S/n - Stats(self.L).mean()**2
 		return var
 	
-	def ecart(L):
-		return Sqrt.sqrt(Stats.var(L))
+	def ecart(self):
+		return Sqrt(Stats(self.L).var()).sqrt()

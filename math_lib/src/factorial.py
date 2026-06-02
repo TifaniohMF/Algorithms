@@ -1,12 +1,12 @@
 '''
 Factorial implementation 
 '''
-class facto(object):
+class factorial:
 	def __init__(self, n):
-		self.n = n
+		self.n = n 
 		
-	def fact(n):
+	def fact(self):
 		M = 1
-		for i in range(0, n):
-			M *= (n-i)
+		for i in range(0, self.n):
+			M *= (self.n - i)
 		return M

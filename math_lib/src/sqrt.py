@@ -1,16 +1,17 @@
 '''
 In this program, I programmed the square Root of number.
 '''
-class Sqrt(object):
+class Sqrt:
 	def __init__(self, n):
 		self.n = n
-	def sqrt(n):
+	
+	def sqrt(self):
 		try:
-			return n**(1/2)
+			return self.n**(1/2)
 		except ValueError:
 			print("Math domain error")
-	def sqrt3(n):
+	def sqrt3(self):
 		try:
-			return n**(1/3)
+			return self.n**(1/3)
 		except ValueError:
 			print("Math domain error")
