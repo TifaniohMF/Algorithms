@@ -5,7 +5,8 @@ class Pow:
 	def __init__(self, x, n):
 		self.x = x
 		self.n = n
-		
+	
+    # Pow value	
 	def power(self):
 		if self.n == 0:
 			return 1

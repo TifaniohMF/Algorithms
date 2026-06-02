@@ -9,6 +9,7 @@ class tangent:
 	def __init__(self, angle):
 		self.angle = angle
 	
+	# Tangent value
 	def tan(self, in_degrees=False):
 	   s = sinus(self.angle).sin(in_degrees=True)
 	   c = cosinus(self.angle).cos(in_degrees=True)

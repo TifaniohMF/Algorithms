@@ -14,20 +14,23 @@ class absolute:
     def __init__(self, data):
         self.number = data if isinstance(data, (int, float)) else None
         self.liste= data if isinstance(data, list) else []
-
+     
+     # Absolute value
     def abs(self):
         if self.number > 0:
             return self.number
         else:
             return -self.number
-
+     
+     # To find the max of absolute value in a list
     def absMax(self):
         j = self.liste[0]
         for i in self.liste:
             if absolute(i).abs() > absolute(j).abs():
                 j = absolute(i).abs()
         return j
-
+     
+     # To find the min of absolute value in a list
     def absMin(self):
         j = self.liste[0]
         for i in self.liste:
